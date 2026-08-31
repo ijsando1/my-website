@@ -9,3 +9,4 @@ The CTA section should be a tall, visually striking banner and includes:
 
 
 Below the banner, create a new section that displays additional information of who I am, the skills I have, and some of my favorite songs.
+ in the section with my favorite songs, include an option to include an image for each artist
