@@ -161,6 +161,20 @@ body {
     min-width: 0;
 }
 
+/* Song title styling */
+.song-title {
+    font-size: 1.25rem;
+    color: #667eea;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.song-artist {
+    font-size: 0.95rem;
+    color: #666;
+    font-weight: 400;
+}
+
 /* Target the embed iframe(s) to make them smaller and responsive */
 .song-details iframe,
 .song-item iframe {
@@ -238,17 +252,12 @@ body {
         max-height: 140px;
     }
 
-    /* fix typo (15rem -> 1.1rem) */
     .song-title {
         font-size: 1.1rem;
-        color: #E6E6FA;
-        font-weight: 700;
     }
 
     .song-artist {
         font-size: 0.85rem;
-        color: #CBC3E3;
-        font-weight: 400;
     }
 
 }
