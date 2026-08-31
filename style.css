@@ -226,12 +226,12 @@ body {
     }
 
     .song-artist-image {
-        width: 150px;
-        height: 150px;
+        width: 50px;
+        height: 50px;
     }
 
     .song-title {
-        font-size: 1rem;
+        font-size: 5rem;
     }
 
     .song-artist {
