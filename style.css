@@ -241,10 +241,12 @@ body {
     /* fix typo (15rem -> 1.1rem) */
     .song-title {
         font-size: 1.1rem;
+        color: lavender;
     }
 
     .song-artist {
         font-size: 0.85rem;
+        color: light purple;
     }
 
 }
