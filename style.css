@@ -130,6 +130,9 @@ body {
 }
 
 .song-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     padding: 15px 20px;
     background: #f8f9fa;
     border-left: 4px solid #667eea;
@@ -140,6 +143,20 @@ body {
 .song-item:hover {
     background: #e9ecef;
     transform: translateX(8px);
+}
+
+.song-artist-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.song-details {
+    flex: 1;
+    min-width: 0;
 }
 
 .song-title {
@@ -206,6 +223,11 @@ body {
 
     .song-item {
         padding: 12px 16px;
+    }
+
+    .song-artist-image {
+        width: 50px;
+        height: 50px;
     }
 
     .song-title {
