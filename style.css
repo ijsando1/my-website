@@ -1,1 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px 20px;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.cta-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.cta-image:hover {
+    transform: scale(1.05);
+}
+
+.cta-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.cta-text p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    opacity: 0.95;
+    max-width: 500px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cta-section {
+        height: auto;
+        min-height: 100vh;
+        padding: 60px 20px;
+    }
+
+    .cta-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .cta-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .cta-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .cta-text p {
+        font-size: 1.1rem;
+    }
+}
