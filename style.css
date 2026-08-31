@@ -242,11 +242,13 @@ body {
     .song-title {
         font-size: 1.1rem;
         color: #E6E6FA;
+        font-weight: 700;
     }
 
     .song-artist {
         font-size: 0.85rem;
         color: #CBC3E3;
+        font-weight: 400;
     }
 
 }
