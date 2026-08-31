@@ -4,7 +4,7 @@ This website serves as a introduction of who I am, what skills I've acquired and
 Create a HTML and CSS for a Call-to-Action section describing who I am.
 
 The CTA section should be a tall, visually striking banner and includes:
--'image/me.jpg'
+- 'image/me.jpg'
 - A welcoming message 
 
 
