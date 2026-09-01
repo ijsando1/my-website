@@ -10,26 +10,26 @@ body {
 
 /* Call-to-Action Section */
 .cta-section {
-    height: 100vh;
+    height: 60vh; /* reduced from 100vh to shorten the CTA */
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.75) 0%, rgba(118, 75, 162, 0.75) 100%), url('image/halo.jpg') center/cover;
     color: white;
-    padding: 40px 20px;
+    padding: 30px 20px; /* slightly reduced padding */
 }
 
 .cta-content {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px; /* tightened gap */
     max-width: 1000px;
     text-align: left;
 }
 
 .cta-image {
-    width: 300px;
-    height: 300px;
+    width: 220px; /* reduced from 300px */
+    height: 220px; /* reduced from 300px */
     border-radius: 20px;
     object-fit: cover;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
@@ -41,13 +41,13 @@ body {
 }
 
 .cta-text h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
+    font-size: 2.8rem; /* slightly smaller */
+    margin-bottom: 16px;
     font-weight: 700;
 }
 
 .cta-text p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     opacity: 0.95;
     max-width: 500px;
@@ -190,27 +190,27 @@ body {
 @media (max-width: 768px) {
     .cta-section {
         height: auto;
-        min-height: 100vh;
-        padding: 60px 20px;
+        min-height: 60vh; /* reduced from 100vh to shorten CTA on mobile */
+        padding: 40px 20px;
     }
 
     .cta-content {
         flex-direction: column;
-        gap: 40px;
+        gap: 30px;
         text-align: center;
     }
 
     .cta-image {
-        width: 250px;
-        height: 250px;
+        width: 180px;
+        height: 180px;
     }
 
     .cta-text h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .cta-text p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .about-section {
