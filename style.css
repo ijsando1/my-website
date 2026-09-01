@@ -10,47 +10,47 @@ body {
 
 /* Call-to-Action Section */
 .cta-section {
-    height: 60vh; /* reduced from 100vh to shorten the CTA */
+    height: 40vh; /* further reduced from 60vh to make CTA smaller */
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.75) 0%, rgba(118, 75, 162, 0.75) 100%), url('image/halo.jpg') center/cover;
     color: white;
-    padding: 30px 20px; /* slightly reduced padding */
+    padding: 20px 16px; /* further reduced padding */
 }
 
 .cta-content {
     display: flex;
     align-items: center;
-    gap: 40px; /* tightened gap */
+    gap: 24px; /* tightened gap more */
     max-width: 1000px;
     text-align: left;
 }
 
 .cta-image {
-    width: 220px; /* reduced from 300px */
-    height: 220px; /* reduced from 300px */
-    border-radius: 20px;
+    width: 140px; /* reduced further from 220px */
+    height: 140px; /* reduced further from 220px */
+    border-radius: 16px;
     object-fit: cover;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.25s ease;
 }
 
 .cta-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .cta-text h1 {
-    font-size: 2.8rem; /* slightly smaller */
-    margin-bottom: 16px;
+    font-size: 2rem; /* reduced from 2.8rem */
+    margin-bottom: 10px;
     font-weight: 700;
 }
 
 .cta-text p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.5;
     opacity: 0.95;
-    max-width: 500px;
+    max-width: 420px;
 }
 
 /* About Me Section */
@@ -190,27 +190,27 @@ body {
 @media (max-width: 768px) {
     .cta-section {
         height: auto;
-        min-height: 60vh; /* reduced from 100vh to shorten CTA on mobile */
-        padding: 40px 20px;
+        min-height: 45vh; /* reduced further for mobile */
+        padding: 28px 16px;
     }
 
     .cta-content {
         flex-direction: column;
-        gap: 30px;
+        gap: 18px;
         text-align: center;
     }
 
     .cta-image {
-        width: 180px;
-        height: 180px;
+        width: 120px; /* reduced from 180px */
+        height: 120px; /* reduced from 180px */
     }
 
     .cta-text h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .cta-text p {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .about-section {
